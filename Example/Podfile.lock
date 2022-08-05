@@ -1,0 +1,27 @@
+PODS:
+  - TDetailBoxView (1.0.0):
+    - TTipBoxView (~> 1.0.0)
+    - TTouchAnimatedButton (~> 1.0.0)
+  - TTipBoxView (1.0.0)
+  - TTouchAnimatedButton (1.0.1)
+
+DEPENDENCIES:
+  - TDetailBoxView (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - TTipBoxView
+    - TTouchAnimatedButton
+
+EXTERNAL SOURCES:
+  TDetailBoxView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TDetailBoxView: 87f49ebca501e761fa42a8aba30478db5d43c83d
+  TTipBoxView: d98fe0a6509bee548712d22f250f93f09324e914
+  TTouchAnimatedButton: 0b46615949697a2f0daef58c9d5346caa4c396ab
+
+PODFILE CHECKSUM: 54b86b188a2aee07619d6d4a7a5de9f2a387724b
+
+COCOAPODS: 1.11.3
