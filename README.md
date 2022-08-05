@@ -3,6 +3,7 @@
 # TDetailBoxView
 
 TDetailBoxView is a simple and flexible UI component fully written in Swift. TDetailBoxView is developed to help users quickly display the detail screen without having to develop from scratch.
+
   
 [![Swift 5.0](https://img.shields.io/badge/Swift-5.0-brightgreen)](https://developer.apple.com/swift/)
 [![Version](https://img.shields.io/cocoapods/v/TDetailBoxView.svg?style=flat)](https://cocoapods.org/pods/TDetailBoxView)
