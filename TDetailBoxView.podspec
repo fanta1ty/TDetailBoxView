@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = 'TDetailBoxView is a simple and flexible UI component fully written in Swift.'
+  s.description      = 'TDetailBoxView is a simple and flexible UI component fully written in Swift. TDetailBoxView is developed to help users quickly display the detail screen without having to develop from scratch.'
 
   s.homepage         = 'https://github.com/fanta1ty/TDetailBoxView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
