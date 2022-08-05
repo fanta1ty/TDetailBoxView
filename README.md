@@ -1,4 +1,4 @@
-![LOGO](https://github.com/fanta1ty/TTopImageBottomLabelButton/blob/master/ScreenShot/Logo.png)
+![LOGO](https://github.com/fanta1ty/TDetailBoxView/blob/master/ScreenShot/Logo.png)
 
 # TDetailBoxView
 
@@ -29,10 +29,30 @@ import TDetailBoxView
 
 1) Initial ``TDetailBoxView`` 
 ```swift
-let topImageBottomLabelButton = TTopImageBottomLabelButton(title: "Top Image Bottom Title", image: UIImage(named: "Image")!)
+let detailBoxView = TDetailBoxView()
 ```
 
-![til](https://github.com/fanta1ty/TTopImageBottomLabelButton/blob/master/ScreenShot/demo.gif)
+2) Initial some items for displaying the detail content
+```swift
+items: [TDetailItem] = [
+    TDetailItem(title: "Name:", value: "TDetailBoxView"),
+    TDetailItem(title: "Author:", value: "fanta1ty"),
+    TDetailItem(title: "Contact", value: "thinhnguyen12389@gmail.com"),
+    TDetailItem(title: "Run:", value: "pod 'TDetailBoxView'")
+]
+```
+
+3) Call function ``applyData`` to add items into ``TDetailBoxView``
+```swift
+contentView.detailBoxView.applyData(items: items,
+                                    title: "TDetailBoxView",
+                                    buttonTitle: "OK",
+                                    tipBoxTitle: "Tip: Please use TDetailBoxView for displaying detail UI")
+]
+```
+
+
+![til](https://github.com/fanta1ty/TDetailBoxView/blob/master/ScreenShot/demo.gif)
 
 ## Requirements
 - iOS 10.0 or later
